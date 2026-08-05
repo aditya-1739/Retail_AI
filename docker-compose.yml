@@ -1,0 +1,26 @@
+services:
+
+  backend:
+    build:
+      context: ./smart-retail-ai-backend
+    container_name: smartretail_backend
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      - DATABASE_URL=sqlite:///./smart_retail.db
+      - SECRET_KEY=supersecretkeychangeinprod123!
+      - ALLOWED_ORIGINS=http://localhost:5173
+
+  frontend:
+    build:
+      context: ./smart-retail-frontend
+    container_name: smartretail_frontend
+    ports:
+      - "5173:80"
+    restart: unless-stopped
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      backend:
+        condition: service_healthy

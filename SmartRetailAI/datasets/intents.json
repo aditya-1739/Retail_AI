@@ -1,0 +1,201 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good Morning",
+                "Good Evening",
+                "Hi there",
+                "Hello bot"
+            ],
+            "responses": [
+                "Hello! Welcome to SmartRetailAI. How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you",
+                "Catch you later",
+                "Exit",
+                "Quit"
+            ],
+            "responses": [
+                "Thank you for visiting SmartRetailAI. Have a great day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thanks a lot",
+                "Much appreciated",
+                "Thank you so much"
+            ],
+            "responses": [
+                "You're welcome! Happy to help."
+            ]
+        },
+        {
+            "tag": "products",
+            "patterns": [
+                "What products do you sell?",
+                "Show products",
+                "Available items",
+                "What can I buy?",
+                "What categories are available?"
+            ],
+            "responses": [
+                "We offer clothing, shoes, bags, electronics, and groceries."
+            ]
+        },
+        {
+            "tag": "product_availability",
+            "patterns": [
+                "Do you have shoes?",
+                "Are bags available?",
+                "Is this product in stock?",
+                "Do you have electronics?",
+                "Can I buy groceries?"
+            ],
+            "responses": [
+                "Yes! Please check our product catalog for the latest stock availability."
+            ]
+        },
+        {
+            "tag": "store_timing",
+            "patterns": [
+                "Store timing",
+                "Opening hours",
+                "When are you open?",
+                "Working hours",
+                "Closing time"
+            ],
+            "responses": [
+                "Our store is open every day from 9:00 AM to 9:00 PM."
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "Payment methods",
+                "Can I pay online?",
+                "Do you accept UPI?",
+                "Credit card accepted?",
+                "Cash on delivery?"
+            ],
+            "responses": [
+                "We accept UPI, credit cards, debit cards, net banking, and cash."
+            ]
+        },
+        {
+            "tag": "shipping",
+            "patterns": [
+                "Shipping charges",
+                "Delivery charges",
+                "How long is delivery?",
+                "Shipping time",
+                "Do you deliver?"
+            ],
+            "responses": [
+                "Orders are usually delivered within 3 to 7 business days."
+            ]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": [
+                "Return policy",
+                "Can I return a product?",
+                "How do I return an item?",
+                "Return process",
+                "Product return"
+            ],
+            "responses": [
+                "Products can be returned within 7 days if they are unused and in their original condition."
+            ]
+        },
+        {
+            "tag": "refund",
+            "patterns": [
+                "Refund",
+                "How do I get my money back?",
+                "Refund status",
+                "Refund policy",
+                "When will I receive my refund?"
+            ],
+            "responses": [
+                "Refunds are processed within 5 to 7 business days after approval."
+            ]
+        },
+        {
+            "tag": "exchange",
+            "patterns": [
+                "Exchange product",
+                "Replace item",
+                "Can I exchange my order?",
+                "Product replacement"
+            ],
+            "responses": [
+                "Yes, products can be exchanged within 7 days if eligible."
+            ]
+        },
+        {
+            "tag": "discount",
+            "patterns": [
+                "Any discount?",
+                "Coupon code",
+                "Offers available?",
+                "Current deals",
+                "Sale"
+            ],
+            "responses": [
+                "Visit our Offers section to see the latest discounts and promotional deals."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Track my order",
+                "Order status",
+                "Where is my order?",
+                "Has my order shipped?",
+                "Track delivery"
+            ],
+            "responses": [
+                "You can track your order using the tracking ID available in your Orders section."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "Customer support",
+                "Contact number",
+                "Help desk",
+                "Email support",
+                "How can I contact you?"
+            ],
+            "responses": [
+                "You can contact us at support@smartretailai.com or call +91-9876543210."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Store location",
+                "Where is your store?",
+                "Address",
+                "Find your shop",
+                "Location"
+            ],
+            "responses": [
+                "Our flagship store is located in Bhopal, Madhya Pradesh."
+            ]
+        }
+    ]
+}

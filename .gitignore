@@ -1,0 +1,61 @@
+# Python Cache and Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# Allow env examples
+!.env.example
+
+# External Dependencies & Package Managers
+node_modules/
+/jspm_packages/
+.npm
+.eslintcache
+
+# Build outputs
+dist/
+build/
+out/
+.cache/
+.parcel-cache
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database & Storage
+*.db
+*.sqlite
+*.sqlite3
+
+# OS Specific files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
